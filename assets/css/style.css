@@ -1,0 +1,50 @@
+/* Plugin style */
+
+/* Service avaliable in... list style */
+
+#sedes_block ul{
+overflow: auto;
+-ms-overflow-style: none; /* for Internet Explorer, Edge */
+scrollbar-width: none; /* for Firefox */
+overflow-y: scroll; 
+}
+
+#sedes_block ul::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+#sedes_block ul li {
+    background-color: #f4f4f4;
+    padding: 8px 4%;
+    margin: 2% 1%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px #d0d0d08a;
+    transition: all 0.5s;
+}
+
+#sedes_block ul li:hover {
+    background-color: #a4c465;
+}
+#sedes_block ul li:hover a{
+    color: white;
+}
+
+#sedes_block ul li .text--xs {
+    font-size: 9px;
+    margin-right: 2px;
+    color: #b0b0b0;
+}
+
+#sedes_block ul li:hover .text--xs {
+    color: white;
+}
+
+
+#sedes_block ul li:first-child{
+    margin-left: 0px;
+}
+
+#sedes_block a{
+    color: black;
+}
+
